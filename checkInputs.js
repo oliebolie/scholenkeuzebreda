@@ -105,11 +105,8 @@ document.getElementById('send-answers').addEventListener("click", function(){
                 window.open('https://www.olvbreda.nl/', '_blank');
             } else {
                 const errorbox = document.getElementById("error-box");
-                errorbox.innerText = "Niet alle vragen zijn beantwoord. Vul eerst alle andere vragen in, en vul de laatste vraag als laatste in voor het resultaat.";
-                
-                // Uncheck the last radio button
-                const lastradio = document.getElementById("drugs_nee");
-                lastradio.checked = false;
+                errorbox.innerText = "Niet alle vragen zijn beantwoord.";
+            
             }
         
 })
