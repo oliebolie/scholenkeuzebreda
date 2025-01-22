@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breda Schoolkeuze</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="breda.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Schoolkeuze Breda</h1>
+        
+        <form class="question-form" id="intiligentie" action="">
+            <p class="question"><strong>Heeft uw kind meer kennis dan een vijfjarige?</strong></p>
+            <label for="intiligentie_ja">Ja</label>
+            <input type="radio" name="intiligentie" id="intiligentie_ja">
+            <br>
+            <label for="intiligentie_nee">Nee</label>
+            <input type="radio" name="intiligentie" id="inteligence_input_field">
+        </form>
+
+        <form class="question-form" id="gevaar" action="">
+            <p class="question"><strong>Heeft uw kind vaak te maken met de politie?</strong></p>
+            <label for="gevaar_ja">Ja</label>
+            <input type="radio" name="gevaar" id="gevaar_ja">
+            <br>
+            <label for="gevaar_nee">Nee</label>
+            <input type="radio" name="gevaar" id="gevaar_nee">
+        </form>
+
+        <form class="question-form" id="trauma" action="">
+            <p class="question"><strong>Wilt u uw kind graag een burn-out geven?</strong></p>
+            <label for="trauma_ja">Ja</label>
+            <input type="radio" name="trauma" id="trauma_ja">
+            <br>
+            <label for="trauma_nee">Nee</label>
+            <input type="radio" name="trauma" id="trauma_nee">
+        </form>
+
+        <form class="question-form" id="gepest" action="">
+            <p class="question"><strong>Wilt u dat uw kind in een vriendelijke omgeving terechtkomt?</strong></p>
+            <label for="gepest_ja">Ja</label>
+            <input type="radio" name="gepest" id="gepest_ja">
+            <br>
+            <label for="gepest_nee">Nee</label>
+            <input type="radio" name="gepest" id="gepest_nee">
+        </form>
+
+        <form class="question-form" id="drugs" action="">
+            <p class="question"><strong>Vind u het acceptabel als uw kind alcohol drinkt?</strong></p>
+            <label for="drugs_ja">Ja</label>
+            <input type="radio" name="drugs" id="drugs_ja">
+            <br>
+            <label for="drugs_nee">Nee</label>
+            <input type="radio" name="drugs" id="drugs_nee">
+        </form>
+        <p style="color:red" id="error-box"></p>
+        <input type="button" value="Versturen" class="button-27" id="send-answers">
+    </div>
+    <img src="breda.jpeg" alt="Breda" class="bottom-right-image">
+    <script src="checkInputs.js"></script>
+</body>
+</html>
